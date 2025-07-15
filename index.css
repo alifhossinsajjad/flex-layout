@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Oswald";
+}
+
+.hero {
+    background-image: url(./assets/images/BMW-7-3.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 0.625rem;
+    padding-bottom: 15rem;
+}
+
+
+nav {
+    background-color: rgb(255, 255, 255);
+    margin: 0rem 3rem 0rem 3rem ;
+}
+
+/* .logo {
+    height: 4%;
+    width: 4%;
+} */
+
+.part-1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav title {
+    font-weight: 800;
+}
+
+
+.part-2 ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+}
+
+
+
+.part-2 ul li {
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* description section */
+
+.description-container {
+    background-color: #554f4f;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    margin: 6rem 12rem 0rem 12rem;
+    align-items: center;
+}
+
+
+.description {
+    text-align: center;
+}
