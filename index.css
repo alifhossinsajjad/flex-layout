@@ -80,15 +80,20 @@ nav {
 
 /* banner section */
 
+.banner-section {
+    justify-content: center;
+    align-items: center;
+}
+
 .banner-container {
     height: 80vh;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 15vh;
     margin-left: 10vw;
     margin-right: 15vw;
     justify-content: center;
     align-items: center;
-
 
 }
 
@@ -96,6 +101,7 @@ nav {
     margin-left: 5rem;
     margin-right: 5rem;
     border-radius: 6rem;
+    width: 100%;
 
 }
 
@@ -134,4 +140,62 @@ nav {
     color: white;
     transition: all 0.3s;
     cursor: pointer;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+.car {
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.car img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    .hero {
+    background-image: url(./assets/images/BMW-7-3.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: .320rem;
+    padding-bottom: 2rem;
+}
+    
+.banner-container {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.container {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.car {
+    background-color: #ffffff;
+}
+
 }
