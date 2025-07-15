@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     font-family: "Oswald";
 }
@@ -14,16 +14,20 @@
     padding-bottom: 15rem;
 }
 
-
 nav {
     background-color: rgb(255, 255, 255);
-    margin: 0rem 3rem 0rem 3rem ;
+    margin: 0rem 3rem 0rem 3rem;
 }
 
 /* .logo {
     height: 4%;
     width: 4%;
 } */
+
+.logo {
+    height: 3rem;
+    align-items: center;
+}
 
 .part-1 {
     display: flex;
@@ -37,7 +41,7 @@ nav {
 
 .part-2 ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     gap: 5rem;
 }
 
@@ -45,7 +49,6 @@ nav {
 
 .part-2 ul li {
     list-style: none;
-    justify-content: space-evenly;
 
 }
 
@@ -55,6 +58,7 @@ nav {
     margin: 5rem;
     text-align: center;
     align-items: center;
+    position: static;
 }
 
 
@@ -72,4 +76,62 @@ nav {
 
 .description {
     text-align: center;
+}
+
+/* banner section */
+
+.banner-container {
+    height: 80vh;
+    display: flex;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    margin-right: 15vw;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.banner-profile img {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 6rem;
+
+}
+
+.banner {
+    height: 50%;
+    width: 60%;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.banner-sub-title {
+    font-size: 2rem;
+    font: 800;
+}
+
+
+.btn-primary {
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    padding: 12px 36px 12px 36px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+
+.btn-primary:hover {
+    background: rgba(13, 8, 44, 0.578);
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
 }
